@@ -98,6 +98,7 @@
     <Content Include="img\glyphicons-halflings.png" />
     <Content Include="img\profile.jpg" />
     <Content Include="js\app.js" />
+    <Content Include="js\controllers\EventController.js" />
     <Content Include="js\directives.js" />
     <Content Include="js\filters.js" />
     <Content Include="lib\angular\angular-resource.js" />
@@ -134,7 +135,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -144,7 +144,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="js\controllers\" />
     <Folder Include="js\services\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
